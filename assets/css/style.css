@@ -1,13 +1,16 @@
+/* Universal selector */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* Type selectors */
 body {
     background-color: #d9dcd6;
 }
 
+/* Type selectors previously labelled as class selectors */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -50,18 +53,8 @@ p {
     font-size: 16px;
 }
 
-section h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-section h3 {
-    margin-bottom: 30px;
-    text-align: center;
-}
-
 footer {
-    padding: 30px;
+    padding: 10px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
@@ -71,6 +64,7 @@ footer h2 {
     font-size: 20px;
 }
 
+/* Class selectors consolidated and renamed */
 .hero {
     height: 800px;
     width: 100%;
@@ -80,20 +74,15 @@ footer h2 {
     background-position: center;
 }
 
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
-
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
+}
+
+.content h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
 }
 
 .contents {
@@ -109,9 +98,19 @@ footer h2 {
     max-height: 200px;
 }
 
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
 .benefits {
     margin-right: 20px;
-    padding: 40px;
+    padding: 20px;
     clear: both;
     float: right;
     width: 20%;
@@ -122,7 +121,12 @@ footer h2 {
     margin-bottom: 32px;
 }
 
-.benefits img {
+.benefit h3 {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.benefit img {
     display: block;
     margin: 30px auto;
     max-width: 150px;
