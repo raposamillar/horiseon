@@ -12,5 +12,3 @@ Comments were added to indicate the changes made and assist future developers.
 
 ## Result
 The refactored webpage displays a clearer structuring of elements, classes, id's, and selectors.  It meets HTML5 standards and will be easier for the company to maintain going forward.
-
-
